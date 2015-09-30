@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Input types</title>
+    </head>
+    <body bgcolor="#483d8b">
+        <h1>Registration form</h1>
+        <form>
+            <fieldset>
+                <legend>Personal info:</legend>
+                <p>
+                    User name:<br>
+                    <input type="text" name="username"><br>
+                    User password:<br>
+                    <input type="password" name="psw"><br>
+                    Your e-mail:<br>
+                    <input type="email" name="email"><br>
+                    <input type="radio" name="sex" value="male" checked> Male
+                    <br>
+                    <input type="radio" name="sex" value="female"> Female
+                    <br>
+                    Your homepage:
+                    <br>
+                    <input type="url" name="homepage">
+                    <br>
+                    How old are you?
+                    <br>
+                    <input type="number" name="age" min="18" max="100">
+                    <br>
+                    Enter Your number:
+                    <br>
+                    <input type="tel" name="usertel">
+                </p>
+                </fieldset>
+                <fieldset>
+                    <legend>About your vehicle:</legend>
+                    <p>
+                        <input type="checkbox" name="car" value="bike"> I have a bike
+                        <br>
+                        <input type="checkbox" name="bike" value="car"> I have a car
+                        <br>
+                        Select your vehicle color:
+                        <input type="color" name="favcolor">
+                        <br>
+                        Which gas station you use?
+                        <select>
+                            <option>Okko</option>
+                            <option>Socar</option>
+                            <option>ANP</option>
+                        </select>
+                    </p>
+                </fieldset>
+                <p>
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset info">
+                </p>
+        </form>
+    </body>
+</html>
